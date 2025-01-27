@@ -4,8 +4,7 @@ import java.time.LocalDate;
 import java.util.Scanner;
 
 public class DoctorServices implements IDoctorServices {
-	
-	
+
 	private int iD;
 	public String fullName;
 	private String derpatment;
@@ -15,17 +14,16 @@ public class DoctorServices implements IDoctorServices {
 
 
 	public DoctorServices(int iD, String fullName,  String derpatment, String experience, double salary, String password){
-
 		this.iD = iD;
 		this.fullName = fullName;
 		this.derpatment = derpatment;
 		this.experience = LocalDate.parse(experience);
 		this.salary = salary;
-		this.password = password;
-		
+		this.password = password;	
 	}
 	
-	public void login() {
+	p
+	ublic void login() {
 		this.getID();
 		this.getPassword();
        
@@ -52,8 +50,7 @@ public class DoctorServices implements IDoctorServices {
        scanner.close();
    }
 	
-	
-   
+
 
 	public int getID() {
 		return this.iD;
