@@ -11,7 +11,7 @@ public class Mafakatini_Hospital {
 	    Nurse nurse = new Nurse(22175678, "Rebecca Nadioo","Labour and Operations Dep.","2022-02-10", 1200, "Rebecca@2217");
 	    
 	    
-	    
+	    manager.login();
 	    doctor.work();
 	    nurse.work();
 	    manager.work();
