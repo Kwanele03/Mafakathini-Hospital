@@ -8,8 +8,7 @@ public class Manager extends ManagerServices {
 
 	public Manager(int iD, String fullName, String derpatment, String experience, double salary, String password) {
 		super(iD, fullName, derpatment, experience, salary, password);
-	}
-		
+	
 		
 		@Override
 		public void work() {

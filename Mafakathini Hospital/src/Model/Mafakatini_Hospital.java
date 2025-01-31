@@ -12,7 +12,7 @@ public class Mafakatini_Hospital {
 	    
 	    
 	    manager.login();
-	    doctor.work();
+	    System.out.printf("My Id number is %d", manager.getId());doctor.work();
 	    nurse.work();
 	    manager.work();
 

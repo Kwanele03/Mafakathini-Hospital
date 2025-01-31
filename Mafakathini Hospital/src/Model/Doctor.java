@@ -14,7 +14,7 @@ public class Doctor extends DoctorServices {
 
 	@Override
 	public void work() {
-		
+
 		
 
 		Scanner scanner = new Scanner(System.in);

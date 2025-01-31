@@ -36,7 +36,7 @@ public class Nurse extends NurseServices {
 	break;	
    } while (duty != 4 );
 		
-     System.out.println("You are welcome!.");	
+     System.out.println("Program Exited!.");	
  	
 	}
 }
